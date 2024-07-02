@@ -9,7 +9,7 @@ spring:
   application:
     name: rest-cars-api
   profiles:
-    active: dev
+    active: prod
   datasource:
     driver-class-name: ${rest-cars-api.datasource.driver-class-name}
     password: ${rest-cars-api.datasource.password}
